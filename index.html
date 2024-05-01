@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/da40d50599.js" crossorigin="anonymous"></script>
+    
+
+</head>
+<body>
+<div id="header">
+    
+    <div class="container">
+        <nav>
+            <img src="" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#tech">TechStack</a></li>
+                <li><a href="#services">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        
+        <div class="header-text">
+            <p> Full Stack Developer</p>
+            <h1>Hi, I'm <span>Ashiti</span><br></h1>
+            <a href="Resoures/aashiti_patil.pdf" download class="btn btn2">Download CV</a>
+        </div>
+    </div>
+    
+</div>
+<!----------------------about----------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/fimg.png" alt="">
+            </div>
+            <div class="about-col-2 ">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi, I'm Aashiti Patil, a dedicated computer engineer from R. C. Patel Institute Of Technology Shirpur, India. With a Bachelor's degree in Computer Science and hands-on experience in Java development, including projects like "Black Spot Detection" and "Bank Management System," I'm poised to make an impact in technology. Certified in C & C++, Java, and AWS, I bring a blend of technical expertise and soft skills like cooperation and leadership to every project..</p>
+                <br>
+                <p class="scnd">Let's connect and discuss how I can bring value to your next project!
+
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link">Education</p>
+                </div>
+                
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019-2023</span><br>B.Tech from R. C. Patel Institute Of Technology.</li>
+                        <li><span>2017-2019</span><br>HSC at Nutan jr. Science College.</li>
+                        <li><span>2016-2017</span><br>SSC at Nutan High School. </li
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------Techstack----------------------->
+
+<div id="tech">
+    <div class="container">
+        <h1 class="sub-title">Tech-Stack I know</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-c"></i>
+                <h2>C/CPP </h2>
+               
+                
+            </div>
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2><small>Adv.Java/JavaEE </small></h2>
+                
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>DBMS</h2>
+                
+               
+            </div>
+            <div>
+                <i class="fa-brands fa-html5"></i>
+                <h2>HTML/CSS </h2>
+
+            </div>
+            <div>
+                <i class="fa-solid fa-server"></i>
+                <h2>MYSQL </h2>
+                
+               
+            </div>
+            <div>
+                <i class="fa-brands fa-js"></i>
+                <h2>Javascript </h2>
+                
+               
+            </div>
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Hibernate </h2>
+                
+               
+            </div>
+            <div>
+                <img src="/images/80.png">
+                <h2>SpringBoot </h2>
+
+            </div>
+            <div>
+                <i class="fa-solid fa-microchip"></i>
+                <h2>FrameWork</h2>    
+                
+               
+            </div>
+            <div>
+                <i class="fa-brands fa-angular"></i>
+                <h2>Angular</h2>
+
+            </div>
+            <div>
+                <i class="fa-solid fa-table"></i>
+                <h2>Data Structure</h2>    
+            
+        </div>
+        <div>
+            <i class="fa-brands fa-aws"></i>
+                <h2>AWS</h2>
+
+
+    </div>
+</div>
+<!----------------------services----------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>BookMyShow ( Movie Ticket Booking System )
+                </h2>
+                <p>The project aims to develop a Java application for movie ticket booking. User can search movie and book no. of seats with food and beverages.
+                    Technologies used in project are Java and MySQL.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Black Spot Detection</h2>
+                <p>For designating an accident prone location as “black spot” based on combined criteria of number of fatalities and accidents technology
+                    used:java,Xampp,MySql,HTML,CSS,Bootstrap.</p>
+                <a href="#">learn more</a>
+            </div>
+            
+        </div>
+
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+             <h2>Electric Vehicle Charging </h2>
+             <p>Intention : 	With the help of this webapp user can find the nearest charging station and fulfill his needs.
+                Modules   : 	Four modules for this project like Admin SubAdmin(Charging Station Owner) User and Database.</p>
+            <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Candidate Assesment Test</h2>
+                <p>The project aims to develop a web application for candidates assessment test in which candidate take the test for jobs. The test will be based on OCEAN
+                    personality test. Data will be stored in SQL database. On the basis of score student will shortlisted for jobs. Technology used in projects are Advance Java,
+                    MySQL.</p>
+                <a href="#">learn more</a>
+            </div>
+            
+        </div>
+             
+    </div>
+</div>
+<!---------contact------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Let's Talk</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> aashitipatil02000@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+919049777590</p>
+                <div class="social-icons">
+                    <a href="https://github.com/AshitiPatil"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ashiti-patil-671217221/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                
+            </div>
+            <div class="contact-right"></div>
+            <form name="submit-to-google-sheet" >
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+</div>
+
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/1BDnvwOjPQZ6QmVHTTOhbgCxq7WKOaynDvujmn-QupW5uP67hm5y4K3ub/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = ""
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
